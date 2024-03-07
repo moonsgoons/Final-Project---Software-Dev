@@ -30,7 +30,7 @@ def get_alarm_time():
 
 """This is where we define the exit button to actually close"""
 def close_alarm():
-    #window.destroy()
+    window.destroy()
     window.quit()
 
 """This is where the window is created"""
@@ -64,7 +64,7 @@ submit = Button(window,text = "Set Your Alarm",fg="Black",bg="#D4AC0D",width = 1
 #This is the button where you can set the actual alarm
 
 """This is where the exit button is defined"""
-exit = Button(window,text = "Exit",fg="Black",bg="#D4AC0D",width = 10,command = close_alarm,font(10)).place(x =95, y=80)
+exit = Button(window,text = "Exit",fg="Black",bg="#D4AC0D",width = 10,command = close_alarm,font(10)).place(x =70 y=75)
 
 """This is where the main function is defined"""
 window.mainloop()
