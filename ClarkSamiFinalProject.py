@@ -28,11 +28,6 @@ def get_alarm_time():
     Alarm(alarm_set_time)
 #We just defined what is actually going to make the alarm work
 
-"""This is where we define the exit button to actually close"""
-def close_alarm():
-    window.destroy()
-    window.quit()
-
 """This is where the window is created"""
 window = Tk()
 window.title("Alarm Clock")
@@ -62,9 +57,6 @@ secTime = Entry(window,textvariable = sec,bg = "#48C9B0",width = 4,font=(20)).pl
 """This is where the submit button is defined"""
 submit = Button(window,text = "Set Your Alarm",fg="Black",bg="#D4AC0D",width = 15,command = get_alarm_time,font=(20)).place(x =100,y=80)
 #This is the button where you can set the actual alarm
-
-"""This is where the exit button is defined"""
-exit = Button(window,text = "Exit",fg="Black",bg="#D4AC0D",width = 10,command = close_alarm,font(10)).place(x =70 y=75)
 
 """This is where the main function is defined"""
 window.mainloop()
