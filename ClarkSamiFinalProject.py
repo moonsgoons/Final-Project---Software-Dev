@@ -8,6 +8,8 @@ from tkinter import *
 import datetime
 import time
 import winsound
+import cv2
+from matplotlib import pyplot as plt
 #Essentially we just imported all the information we will need to complete this program
 
 """This is where we define the alarm and how it gets the time"""
