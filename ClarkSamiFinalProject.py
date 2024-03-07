@@ -58,6 +58,10 @@ secTime = Entry(window,textvariable = sec,bg = "#48C9B0",width = 4,font=(20)).pl
 submit = Button(window,text = "Set Your Alarm",fg="Black",bg="#D4AC0D",width = 15,command = get_alarm_time,font=(20)).place(x =100,y=80)
 #This is the button where you can set the actual alarm
 
+"""This is where the exit button is defined"""
+submit = Button(window,text = "Exit",fg="Black",bg="#D4AC0D",width = 15,command = sys.exit()
+#This is the button where you can exit the program
+
 """This is where the main function is defined"""
 window.mainloop()
 #This is how the entire program comes together to work
