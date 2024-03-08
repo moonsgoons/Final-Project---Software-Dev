@@ -1,4 +1,2 @@
 # Final-Project---Software-Dev
-This is a GUI alarm clock I created with the help of tutorials and my software development class. 
 
-This project is essentially an alarm clock I created through the help of tutorials and my Software Development class. It's a very simple program. You are given an alarm clock, you enter the time into the text boxes provided, and then click "Set Your Alarm". When that time is reached, a sound plays and the alarm stops. There is also an exit button to close the window, and a thank you window with two images to thank you for using the program. While somewhat complicated to code, it truly made me realize how easy the application can look, yet how complex it can actually be. I liked how this project made me think of coding from a different perspective almost. Thank you. 
